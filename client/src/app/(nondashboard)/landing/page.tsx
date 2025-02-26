@@ -1,3 +1,4 @@
+import DiscoverSection from './DiscoverSection';
 import FeaturesSection from './FeaturesSection';
 import HeroSection from './HeroSection';
 
@@ -7,6 +8,8 @@ const LandingPage = () => {
 			<HeroSection />
 
 			<FeaturesSection />
+
+			<DiscoverSection />
 		</div>
 	);
 };
